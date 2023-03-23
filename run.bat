@@ -19,7 +19,7 @@ for %%i in (%*) do (
   )
 )
 
-REM For debugging: Show parsed arguments
+REM Debug: Show parsed arguments
 echo arg_venv: !arg_venv!
 echo arg_repository: !arg_repository!
 
@@ -69,7 +69,7 @@ if not exist "%venv_location%\Scripts\activate.bat" (
   echo Virtual environment already exists.
 )
 
-
+REM Debug: Show final paths
 echo venv_location is: %venv_location%\Scripts\activate.bat
 echo repository_location is: %repository_location%
 

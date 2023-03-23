@@ -21,3 +21,4 @@ The goal of this repository is to provide a user interface for the deep learning
     * Preprocess image(s)
     * Batch jobs
     * Result handling
+    * File extensions
