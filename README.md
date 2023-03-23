@@ -5,7 +5,7 @@ The goal of this repository is to provide a user interface for the deep learning
 ## Requirements
 * Python 3.9
 * Pip
-* CUDA ready graphic card
+* CUDA ready GPU
 
 ## Planned Features
 * Ability to run the deep learning model on a local system
@@ -16,3 +16,8 @@ The goal of this repository is to provide a user interface for the deep learning
         * Handling installation pitfalls that occured when installing the original repository's requirements.txt, such as specified torch and torchvision + cuda versions not found by pip
 
 * Graphical User Interface
+    * Load and manage driving videos
+    * Load source image(s)
+    * Preprocess image(s)
+    * Batch jobs
+    * Result handling
